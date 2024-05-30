@@ -1,0 +1,87 @@
+/* Estilos.css */
+
+/* Reset de márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Estilo del título principal */
+.titulo-principal {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #444;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+/* Estilo de las imágenes */
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+/* Secciones de encabezados */
+h2 {
+    border-bottom: 2px solid #444;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+/* Listas ordenadas y desordenadas */
+ol, ul {
+    font-family: 'Times New Roman';
+    text-align: center;
+    margin: 20 0;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 1px;
+}
+
+/* Tabla de horarios */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #444;
+    color: #fff;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+tr:nth-child(even) td {
+    background-color: #f1f1f1;
+}
+
+/* Receso */
+td[colspan="5"] {
+    background-color: #ffeeba;
+    font-weight: bold;
+    font-size: 1.1em;
+}
